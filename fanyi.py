@@ -103,7 +103,7 @@ class Application(object):
 
         self.result_text.delete(0.0,END)
         self.result_text.insert(END,result)
-        print(content)
+     #   print(content)
     #清空文本域中的内容
     def clean(self):
         self.result_text1.delete(0.0,END)
